@@ -1,0 +1,16 @@
+/*
+    Made for https://git.naroors.pl/
+    Public Usage Allowed, 
+    MIT Licensed.
+
+
+    Something doesn't work/Want to suggest some changes? 
+    Feel free to open an issue on GitHub:
+    https://git.naroors.pl/issues
+*/
+
+
+:root { /* Why do we use :root? Because it's the ONLY way to make variables that we are going to use later on */
+    --color-blue: #2563eb; /* Why do I start with colors? Well I don't have a clue :P */
+
+}
