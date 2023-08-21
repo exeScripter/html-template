@@ -1,5 +1,5 @@
 /*
-    Made for https://git.naroors.pl/
+    Made for https://preview.naroors.pl/
     Public Usage Allowed, 
     MIT Licensed.
 

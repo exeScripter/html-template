@@ -1,5 +1,5 @@
 /*
-    Made for https://git.naroors.pl/
+    Made for https://preview.naroors.pl/
     Public Usage Allowed, 
     MIT Licensed.
 
@@ -10,7 +10,34 @@
 */
 
 
-:root { /* Why do we use :root? Because it's the ONLY way to make variables that we are going to use later on */
-    --color-blue: #2563eb; /* Why do I start with colors? Well I don't have a clue :P */
+:root { /* Why do we use :root? Because we use variables, variables are VERY important in modern styling. 
+    /* Colors */
+    --clr-blue: #2563eb; /* Why do I start with Colors? Well I don't have a clue :P, I just like it that way :) */
+    --clr-red: #dc2626;
+    --clr-green: #16a34a;
+    --clr-emerald: #059669;
+    --clr-lime: #65a30d;
+    --clr-yellow: #facc15;
+    --clr-amber: #fbbf24;
+    --clr-orange: #ea580c;
+    --clr-teal: #0d9488;
+    --clr-cyan: #06b6d4;
+    --clr-sky: #0284c7;
+    --clr-indigo: #4f46e5;
+    --clr-violet: #7c3aed;
+    --clr-purple: #9333ea;
+    --clr-fuchsia: #c026d3;
+    --clr-pink: #db2777;
+    --clr-rose: #e11d48;
+    --clr-slate900: #0f172a;
+    --clr-slate800: #1e293b;
+    --clr-slate700: #334155;
+    --clr-slate600: #475569;
+    --clr-slate500: #64748b;
+    --clr-slate400: #94a3b8;
 
+    /* Colors */
+
+    /* Fonts */
+    --font-family: "Segoe UI", "Roboto", "Helvetice Neue", Arial, sans-serif, "Apple Color Emoji";
 }
