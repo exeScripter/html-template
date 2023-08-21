@@ -56,10 +56,11 @@
     --font-family: "Segoe UI", "Roboto", "Helvetice Neue", Arial, sans-serif, "Apple Color Emoji";
     --line-height: calc(var(--font-size) * 1.5); /* Usually, in most cases this is the most preferred line-height. */
     --font-size: calc((100vg / 80) * 0.5); /* This is just a pure estimate, do what fits you the best. */
+    --font-weight: 600;
     /* Font Stuff & Line-height */
 } /* For now this should be enough */
 
-:root[data-theme="dark"] {
+:root[data-theme="dark"] { /* I add this to make the page a liitle more interactive? sort of, it just checks if the user has a dark theme and applies the settings for it. Useful right? */
     /* Colors */
     --clr-blue: #3b82f6;
     --clr-red: #ef4444;
@@ -121,6 +122,290 @@ button {
     outline: none;
     background-color: var(--bg-color);
 }
+
+h1,h2,h3,h4,h5,h6 {
+    font-weight: var(--font-weight);
+    color: var(--text-color);
+}
+
+h1 {
+    font-size: var(--size-6xl);
+}
+
+h2 {
+    font-size: var(--size-5xl);
+}
+
+h3 {
+    font-size: var(--size-4xl);
+}
+
+h4 {
+    font-size: var(--size-3xl);
+}
+
+h5 {
+    font-size: var(--size-2xl);
+}
+
+h6 {
+    font-size: var(--size-xl);
+}
+
+p {
+    font-size: var(--size-md);
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+th,td {
+    padding: var(--size-sm);
+    text-align: left;
+    border-bottom: 1px solid var(--clr-slate400);
+}
+
+th {
+    font-weight: var(--font-weight);
+}
+
+td {
+    font-weight: normal;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+code {
+    font-family: "Fira Code", monospace;
+    font-size: var(--size-md);
+    background-color: var(--clr-slate400);
+    color: var(--text-color);
+    padding: var(--size-sm);
+    border-radius: var(--size-sm);
+}
+
+pre {
+    font-family: "Fira Code", monospace;
+    font-size: var(--size-md);
+    background-color: var(--clr-slate400);
+    color: var(--text-color);
+    padding: var(--size-sm);
+    border-radius: var(--size-sm);
+    overflow-x: auto;
+}
+
+pre code {
+    background-color: transparent;
+    color: var(--text-color);
+    padding: 0;
+    border-radius: 0;
+}
+
+blockquote {
+    font-size: var(--size-md);
+    font-style: italic;
+    border-left: 4px solid var(--clr-slate400);
+    padding: var(--size-sm);
+    margin: var(--size-sm) 0;
+}
+
+blockquote p {
+    margin: 0;
+}
+
+blockquote p:last-child {
+    margin-bottom: 0;
+}
+
+blockquote footer {
+    font-size: var(--size-sm);
+    font-weight: var(--font-weight);
+    color: var(--clr-slate500);
+}
+
+b {
+    font-weight: var(--font-weight-bolder);
+}
+
+strong {
+    font-weight: var(--font-weight);
+}
+
+i {
+    font-style: italic;
+}
+
+em {
+    font-style: italic;
+}
+
+u {
+    text-decoration: underline;
+}
+
+s {
+    text-decoration: line-through;
+}
+
+sup {
+    font-size: var(--size-sm);
+    vertical-align: super;
+    line-height: 0;
+}
+
+sub {
+    font-size: var(--size-sm);
+    vertical-align: sub;
+    line-height: 0;
+}
+
+ul,ol {
+    padding-left: var(--size-md);
+    margin: var(--size-sm) 0;
+}
+
+ul {
+    list-style: disc;
+}
+
+ol {
+    list-style: decimal;
+}
+
+/* Global Styles */
+
+/* Classes */
+
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.text-lowercase {
+    text-transform: lowercase;
+}
+
+.text-capitalize {
+    text-transform: capitalize;
+}
+
+.text-break {
+    word-break: break-word;
+}
+
+.text-nowrap {
+    white-space: nowrap;
+}
+
+.text-truncate {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.text-nodeco {
+    text-decoration: none;
+}
+
+.text-deco-under {
+    text-decoration: underline;
+}
+
+.text-deco-over {
+    text-decoration: overline;
+}
+
+.text-deco-through {
+    text-decoration: line-through;
+}
+
+.text-deco-blink {
+    text-decoration: blink;
+}
+
+.text-deco-solid {
+    text-decoration: solid;
+}
+
+.text-deco-double {
+    text-decoration: double;
+}
+
+.text-deco-dotted {
+    text-decoration: dotted;
+}
+
+.text-deco-dashed {
+    text-decoration: dashed;
+}
+
+.text-deco-wavy {
+    text-decoration: wavy;
+}
+
+.text-deco-inherit {
+    text-decoration: inherit;
+}
+
+.text-deco-initial {
+    text-decoration: initial;
+}
+
+.text-deco-unset {
+    text-decoration: unset;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.flex-row-reverse {
+    flex-direction: row-reverse;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.relative {
+    position: relative;
+}
+
+.fixed {
+    position: fixed;
+}
+
+.sticky {
+    position: sticky;
+}
+
+
+/* Classes  */
+
 
 
 
