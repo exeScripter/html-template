@@ -11,6 +11,19 @@
         <script src="./src/js/index.js"></script>
     </head>
     <body>
+        <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, 50%); text-align: center;">
+            This a <b>basic</b> template for web development. <br>
+            It is developed by <a href="https://dc.naroors.pl/">naroors</a>
 
+            <br><br>
+            This page automatically detects your theme and applies the coresponding style.
+        </div>
     </body>
+
+
+    <script>
+        const prefersDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+        const html = document.querySelector('html');
+        html.dataset.theme = prefersDarkMode ? 'dark' : 'light';
+    </script>
 </html> <!-- Public repo: https://git.naroors.pl/ -->

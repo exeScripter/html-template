@@ -35,9 +35,92 @@
     --clr-slate600: #475569;
     --clr-slate500: #64748b;
     --clr-slate400: #94a3b8;
-
+    --bg-color: #f8fafc;
+    --text-color: #09090b;
     /* Colors */
 
-    /* Fonts */
+    /* Sizes */
+    --size-xsm: 0.5rem;
+    --size-sm: 0.75rem;
+    --size-md: 1rem;
+    --size-lg: 1.25rem;
+    --size-xl: 1.5rem;
+    --size-xxl: 1.75rem;
+    --size-3xl: 2rem;
+    --size-4xl: 2.5rem;
+    --size-5xl: 3rem;
+    --size-6xl: 4rem;
+    /* Sizes */
+
+    /* Font Stuff & Line-height */
     --font-family: "Segoe UI", "Roboto", "Helvetice Neue", Arial, sans-serif, "Apple Color Emoji";
+    --line-height: calc(var(--font-size) * 1.5); /* Usually, in most cases this is the most preferred line-height. */
+    --font-size: calc((100vg / 80) * 0.5); /* This is just a pure estimate, do what fits you the best. */
+    /* Font Stuff & Line-height */
+} /* For now this should be enough */
+
+:root[data-theme="dark"] {
+    /* Colors */
+    --clr-blue: #3b82f6;
+    --clr-red: #ef4444;
+    --clr-green: #22c55e;
+    --clr-emerald: #10b981;
+    --clr-lime: #84cc16;
+    --clr-yellow: #fbbf24;
+    --clr-amber: #f59e0b;
+    --clr-orange: #f97316;
+    --clr-teal: #14b8a6;
+    --clr-cyan: #06b6d4;
+    --clr-sky: #0ea5e9;
+    --clr-indigo: #6366f1;
+    --clr-violet: #8b5cf6;
+    --clr-purple: #a855f7;
+    --clr-fuchsia: #d946ef;
+    --clr-pink: #ec4899;
+    --clr-rose: #f43f5e;
+    --clr-slate900: #1f2937;
+    --clr-slate800: #374151;
+    --clr-slate700: #4b5563;
+    --clr-slate600: #6b7280;
+    --clr-slate500: #9ca3af;
+    --clr-slate400: #d1d5db;
+    --bg-color: #1b1c1c;
+    --text-color: #f9fafb;
+    /* Colors */
 }
+
+/* Global Styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-family);
+    line-height: var(--line-height);
+    font-size: var(--font-size);
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+a {
+    color: var(--clr-blue);
+    text-decoration: none;
+    transition: text-decoration 0.3s;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background-color: var(--bg-color);
+}
+
+
+
