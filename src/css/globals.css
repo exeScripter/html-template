@@ -183,20 +183,22 @@ img {
 code {
     font-family: "Fira Code", monospace;
     font-size: var(--size-md);
-    background-color: var(--clr-slate400);
-    color: var(--text-color);
+    width: var(--size-lg);
+    height: var(--size-lg);
     padding: var(--size-sm);
-    border-radius: var(--size-sm);
+    background-color: var(--clr-slate400);
+    color: var(--clr-slate900);
+    box-sizing: border-box;
 }
 
 pre {
     font-family: "Fira Code", monospace;
     font-size: var(--size-md);
-    background-color: var(--clr-slate400);
-    color: var(--text-color);
+    background-color: var(--clr-slate900);
+    color: var(--clr-slate900);
+    text-align: center;
     padding: var(--size-sm);
     border-radius: var(--size-sm);
-    overflow-x: auto;
 }
 
 pre code {
