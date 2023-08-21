@@ -194,7 +194,7 @@ code {
 pre {
     font-family: "Fira Code", monospace;
     font-size: var(--size-md);
-    background-color: var(--clr-slate900);
+    background-color: var(--clr-slate400);
     color: var(--clr-slate900);
     text-align: center;
     padding: var(--size-sm);
@@ -203,7 +203,7 @@ pre {
 
 pre code {
     background-color: transparent;
-    color: var(--text-color);
+    color: var(--clr-slate900);
     padding: 0;
     border-radius: 0;
 }
