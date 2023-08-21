@@ -20,7 +20,7 @@ So, I've created this repo to help you out with that.
 
 ## How to use?
 ### Well, it's pretty simple. Just clone this repo and you're good to go.
-### NOTE: You must have INSTALLED ```bash git ``` to begin with. 
+### NOTE: You must have INSTALLED ```git``` to begin with. 
 ```bash
 git clone https://github.com/exeScripter/html-template.git
 ```
