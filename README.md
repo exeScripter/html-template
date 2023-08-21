@@ -11,8 +11,8 @@ So, I've created this repo to help you out with that.
 - [x] index.html - **Basic HTML file, that contains all of the stuff needed**
 
 ## What's not included?
-- [ ] CSS - **I'm planning to add a CSS file to this repo**
-- [ ] JS  - **I'm planning to add a JS file to this repo**
+- [x] CSS - **I'm planning to add a CSS file to this repo [5% DONE]**
+- [ ] JS  - **I'm planning to add a JS file to this repo [0% DONE]**
 - [ ] PHP - **I'm planning to add a PHP file to this repo**
 - [ ] Python - **I'm planning to add a Python file to this repo**
 - [ ] Tailwind, Bootstrap - **It's in plans to be added**
