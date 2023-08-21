@@ -15,4 +15,4 @@ So, I've created this repo to help you out with that.
 git clone https://github.com/exeScripter/html-template.git
 ```
 ### Or you can just download the zip file and extract it. 
-> [ But I wouldn't recommend it because this take a hell lot of time]
+> But I wouldn't recommend it because this take a hell lot of time
