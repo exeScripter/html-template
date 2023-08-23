@@ -1,0 +1,41 @@
+@import url("../globals.css");
+nav {
+  color: var(--text-color);
+  background-color: var(--bg-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  gap: 20px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: var(--text-color);
+  text-decoration: none;
+}
+
+nav a {
+  padding: 5px;
+  border-radius: 5px;
+  transition: 0.3s border-bottom;
+  text-decoration: none;
+}
+
+nav .logo {
+  text-align: left;
+  font-size: var(--size-lg);
+  font-weight: 700;
+}
+
+/*# sourceMappingURL=_navbar.css.map */

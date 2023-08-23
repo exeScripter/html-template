@@ -1,0 +1,20 @@
+@import url("../globals.css");
+.center-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center-absolute {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.center-margin {
+  width: 50%;
+  margin: 0 auto;
+}
+
+/*# sourceMappingURL=_classes.css.map */

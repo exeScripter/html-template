@@ -7,11 +7,33 @@
 
         <!-- CSS -->
         <link rel="stylesheet" href="./src/css/globals.css">
+            <!-- Components -->
+            <link rel="stylesheet" href="./src/components/_classes.css">
+            <link rel="stylesheet" href="./src/components/_navbar.css">
         <!-- JS -->
         <script src="./src/js/index.js"></script>
     </head>
     <body>
-        <div class="absolute" style="top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center;">
+        <nav>
+            <div class="logo">
+                <p>Basic HTML Template</p>
+            </div>
+            <ul>
+                <li>
+                    <a href="https://dc.naroors.pl/">Discord</a>
+                </li>
+                <li>
+                    <a href="https://git.naroors.pl/">GitHub</a>
+                </li>
+                <li>
+                    <a href="https://git.naroors.pl/issues">Issues?</a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="center-absolute text-center"> 
+            <!-- Look at the difference it makes, instead of writing style="position: absolute; top: 50%; left: 50%; 
+                transform: translate(-50%, -50%)", you just have to write the name of the class. -->
             This a <b>basic</b> template for web development. <br>
             It is developed by <a href="https://dc.naroors.pl/">naroors</a>
 

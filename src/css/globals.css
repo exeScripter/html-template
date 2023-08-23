@@ -9,6 +9,9 @@
     https://git.naroors.pl/issues
 */
 
+/* Importing the other CSS files, so that we will not need to worry about massive .html link lines */
+@import url("classes.css");
+
 
 :root { /* Why do we use :root? Because we use variables, variables are VERY important in modern styling. 
     /* Colors */
@@ -38,7 +41,7 @@
     --bg-color: #f8fafc;
     --text-color: #09090b;
     /* Colors */
-
+    
     /* Sizes */
     --size-xsm: 0.5rem;
     --size-sm: 0.75rem;
@@ -450,6 +453,8 @@ ol {
 
 .m10{margin:5rem;}
 /* Padding & Margins */
+
+
 
 
 /* Classes  */
