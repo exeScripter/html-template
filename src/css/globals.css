@@ -10,7 +10,9 @@
 */
 
 /* Importing the other CSS files, so that we will not need to worry about massive .html link lines */
-@import url("classes.css");
+@import url("../components/_classes.css");
+@import url("../components/_navbar.css");
+@import url("../components/_footer.css");
 
 
 :root { /* Why do we use :root? Because we use variables, variables are VERY important in modern styling. 
