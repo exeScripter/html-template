@@ -1,4 +1,4 @@
-# ⚡ Hello, World! I might say
+# ⚡ Hello, World! I might say [DISCONTINUED LIKE MOST OF MY PROJECTS LOL]
 ### In this repo, as the description already told you. This repo includes all of the basics that you wanna need on your way to making an easier life for yourself. 
 
 As you may already know, these days. It's useless to create every single file by yourself. 
